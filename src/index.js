@@ -11,5 +11,6 @@ const state = {
     {id: 3, name: 'Render based on state', isComplete: true},
   ]
 }
+
 ReactDOM.render(<App todos={state.todos}/>, document.getElementById('root'));
 registerServiceWorker();
