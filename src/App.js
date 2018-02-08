@@ -15,7 +15,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React with Redux</h1>
         </header>
         <div className="Todo-app">
-          <Message message="Hello"/>
+          <Message/>
           <TodoForm />
           <TodoList />
         </div>
