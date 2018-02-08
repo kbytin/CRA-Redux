@@ -11,62 +11,14 @@
       "isComplete": true
     },
     {
-      "id": 3,
-      "name": "Load data into app",
-      "isComplete": true
-    },
-    {
       "id": 4,
       "name": "Add records",
       "isComplete": true
     },
     {
-      "id": 5,
-      "name": "update records",
-      "isComplete": false
-    },
-    {
       "name": "asd",
       "isComplete": true,
       "id": 6
-    },
-    {
-      "name": "asdasd",
-      "isComplete": true,
-      "id": 7
-    },
-    {
-      "name": "adsf",
-      "isComplete": true,
-      "id": 8
-    },
-    {
-      "isComplete": false,
-      "id": 9
-    },
-    {
-      "isComplete": false,
-      "id": 10
-    },
-    {
-      "isComplete": false,
-      "id": 11
-    },
-    {
-      "isComplete": false,
-      "id": 12
-    },
-    {
-      "isComplete": false,
-      "id": 13
-    },
-    {
-      "isComplete": false,
-      "id": 14
-    },
-    {
-      "isComplete": false,
-      "id": 15
     },
     {
       "name": "dfgh",
@@ -82,6 +34,11 @@
       "name": "asdfg",
       "isComplete": false,
       "id": 18
+    },
+    {
+      "name": "test todo ",
+      "isComplete": false,
+      "id": 19
     }
   ]
 }
