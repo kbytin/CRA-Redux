@@ -5,7 +5,7 @@ body {
 }
 
 .Todo-app {
-  padding-top: 20px;
+  padding-top: 35px;
   display: inline-block;
   text-align: left;
 }
@@ -20,4 +20,16 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.message {
+  background-color:#61DAFB;
+  color:white;
+  border: solid 1px #61DAFB;
+  position: absolute;
+  text-align: center;
+  width:200px;
+  left: 50%;
+  margin-left:-100px;
+  top: 200px;
 }
