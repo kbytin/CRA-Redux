@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
 import './App.css';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import Message from './components/Message';
-
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
@@ -14,11 +15,16 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React with Redux</h1>
         </header>
-        <div className="Todo-app">
-          <Message/>
-          <TodoForm />
-          <TodoList />
-        </div>
+        <Router>
+          <div className="Todo-app">
+            <Message/>
+            <TodoForm />
+            <Route path='/:filter?' render={({match}) => (
+              <TodoList filter={match.params.filter} />
+            )}/>
+            <Footer />
+          </div>
+        </Router>
       </div>
     );
   }
